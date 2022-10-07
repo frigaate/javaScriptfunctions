@@ -27,3 +27,25 @@ person["is cute"] = false
 //When a peoperty is creater with space between, it must always be referenced with square bracket method and quotation mark, because of the space, as using the dot method will not recognise the space
 
 console.log(person)
+
+// const scores = [22, 54, 76, 92, 43, 33];
+// console.log(scores.length);
+
+// let i = 0;
+// while(i < scores.length){
+//     console.log(scores[i]+2);
+//     i++;
+// }
+
+// do{
+//     consolee.log(scores[i]);
+//     i++;
+// }
+// while(i < scores.length);
+
+const score = [1, 2, 3, 4, 5, 6];
+
+for(i = 0; i < score.length; i++)
+{
+    console.log(score[i] + 2);
+}
