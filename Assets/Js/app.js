@@ -24,7 +24,7 @@ person["obj"]
 //To access a value, the property inside the  square beacket, must be a string
 //To add property and value can also be done with the square bracket by
 person["is cute"] = false
-//When a peoperty is creater with space between, it must always be referenced with square bracket method and quotation mark, because of the space, as using the dot method will not recognise the space
+//When a property is creater with space between, it must always be referenced with square bracket method and quotation mark, because of the space, as using the dot method will not recognise the space
 
 console.log(person)
 
@@ -49,3 +49,28 @@ for(i = 0; i < score.length; i++)
 {
     console.log(score[i] + 2);
 }
+
+
+
+//Sort even and odd numbers
+const numbers = [];
+const even = [];
+const odd = [];
+
+for(let i = 0; i < 20; i++){
+    numbers[i] = i + 1;
+}
+
+for(let i = 0; i < numbers.length; i++){
+
+    if(numbers[i] % 2 == 0){
+        even.push(numbers[i]);
+    }
+
+    else{
+        odd.push(numbers[i]);
+    }
+
+}
+
+console.log(even, odd);
